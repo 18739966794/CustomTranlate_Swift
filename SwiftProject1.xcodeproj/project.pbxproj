@@ -14,6 +14,15 @@
 		B9555ADB1DB47DAA00DCFB2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9555AD91DB47DAA00DCFB2C /* LaunchScreen.storyboard */; };
 		B9555AE61DB47DAA00DCFB2C /* SwiftProject1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9555AE51DB47DAA00DCFB2C /* SwiftProject1Tests.swift */; };
 		B9555AF11DB47DAA00DCFB2C /* SwiftProject1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9555AF01DB47DAA00DCFB2C /* SwiftProject1UITests.swift */; };
+		B9555B001DB47E0500DCFB2C /* ChildViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9555AFE1DB47E0500DCFB2C /* ChildViewController1.swift */; };
+		B9555B011DB47E0500DCFB2C /* ChildViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9555AFF1DB47E0500DCFB2C /* ChildViewController1.xib */; };
+		B9555B031DB47E9200DCFB2C /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9555B021DB47E9200DCFB2C /* MyView.swift */; };
+		B95DB60B1ED44A57006F05AA /* CustomPushTransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95DB60A1ED44A57006F05AA /* CustomPushTransitionAnimation.swift */; };
+		B95DB60D1ED44A95006F05AA /* CustomPopTransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95DB60C1ED44A95006F05AA /* CustomPopTransitionAnimation.swift */; };
+		B98FA0311ED6CD5F007613BA /* CustomPresentAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98FA0301ED6CD5F007613BA /* CustomPresentAnimation.swift */; };
+		B98FA0331ED6CDE1007613BA /* CustomDismissAniamtion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98FA0321ED6CDE1007613BA /* CustomDismissAniamtion.swift */; };
+		B98FA0361ED6E974007613BA /* ChildViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98FA0341ED6E974007613BA /* ChildViewController2.swift */; };
+		B98FA0371ED6E974007613BA /* ChildViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = B98FA0351ED6E974007613BA /* ChildViewController2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		B9555AEC1DB47DAA00DCFB2C /* SwiftProject1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftProject1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9555AF01DB47DAA00DCFB2C /* SwiftProject1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftProject1UITests.swift; sourceTree = "<group>"; };
 		B9555AF21DB47DAA00DCFB2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9555AFE1DB47E0500DCFB2C /* ChildViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildViewController1.swift; sourceTree = "<group>"; };
+		B9555AFF1DB47E0500DCFB2C /* ChildViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChildViewController1.xib; sourceTree = "<group>"; };
+		B9555B021DB47E9200DCFB2C /* MyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		B95DB60A1ED44A57006F05AA /* CustomPushTransitionAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPushTransitionAnimation.swift; sourceTree = "<group>"; };
+		B95DB60C1ED44A95006F05AA /* CustomPopTransitionAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPopTransitionAnimation.swift; sourceTree = "<group>"; };
+		B98FA0301ED6CD5F007613BA /* CustomPresentAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPresentAnimation.swift; sourceTree = "<group>"; };
+		B98FA0321ED6CDE1007613BA /* CustomDismissAniamtion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDismissAniamtion.swift; sourceTree = "<group>"; };
+		B98FA0341ED6E974007613BA /* ChildViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildViewController2.swift; sourceTree = "<group>"; };
+		B98FA0351ED6E974007613BA /* ChildViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChildViewController2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +117,15 @@
 			children = (
 				B9555AD01DB47DAA00DCFB2C /* AppDelegate.swift */,
 				B9555AD21DB47DAA00DCFB2C /* ViewController.swift */,
+				B9555AFE1DB47E0500DCFB2C /* ChildViewController1.swift */,
+				B9555AFF1DB47E0500DCFB2C /* ChildViewController1.xib */,
+				B98FA0341ED6E974007613BA /* ChildViewController2.swift */,
+				B98FA0351ED6E974007613BA /* ChildViewController2.xib */,
+				B95DB60A1ED44A57006F05AA /* CustomPushTransitionAnimation.swift */,
+				B95DB60C1ED44A95006F05AA /* CustomPopTransitionAnimation.swift */,
+				B98FA0301ED6CD5F007613BA /* CustomPresentAnimation.swift */,
+				B98FA0321ED6CDE1007613BA /* CustomDismissAniamtion.swift */,
+				B9555B021DB47E9200DCFB2C /* MyView.swift */,
 				B9555AD41DB47DAA00DCFB2C /* Main.storyboard */,
 				B9555AD71DB47DAA00DCFB2C /* Assets.xcassets */,
 				B9555AD91DB47DAA00DCFB2C /* LaunchScreen.storyboard */,
@@ -233,6 +260,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9555ADB1DB47DAA00DCFB2C /* LaunchScreen.storyboard in Resources */,
+				B98FA0371ED6E974007613BA /* ChildViewController2.xib in Resources */,
+				B9555B011DB47E0500DCFB2C /* ChildViewController1.xib in Resources */,
 				B9555AD81DB47DAA00DCFB2C /* Assets.xcassets in Resources */,
 				B9555AD61DB47DAA00DCFB2C /* Main.storyboard in Resources */,
 			);
@@ -259,8 +288,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B98FA0361ED6E974007613BA /* ChildViewController2.swift in Sources */,
+				B9555B031DB47E9200DCFB2C /* MyView.swift in Sources */,
 				B9555AD31DB47DAA00DCFB2C /* ViewController.swift in Sources */,
+				B95DB60D1ED44A95006F05AA /* CustomPopTransitionAnimation.swift in Sources */,
+				B9555B001DB47E0500DCFB2C /* ChildViewController1.swift in Sources */,
 				B9555AD11DB47DAA00DCFB2C /* AppDelegate.swift in Sources */,
+				B95DB60B1ED44A57006F05AA /* CustomPushTransitionAnimation.swift in Sources */,
+				B98FA0331ED6CDE1007613BA /* CustomDismissAniamtion.swift in Sources */,
+				B98FA0311ED6CD5F007613BA /* CustomPresentAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +541,7 @@
 				B9555AF71DB47DAA00DCFB2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9555AF81DB47DAA00DCFB2C /* Build configuration list for PBXNativeTarget "SwiftProject1Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +550,7 @@
 				B9555AFA1DB47DAA00DCFB2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9555AFB1DB47DAA00DCFB2C /* Build configuration list for PBXNativeTarget "SwiftProject1UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +559,7 @@
 				B9555AFD1DB47DAA00DCFB2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
