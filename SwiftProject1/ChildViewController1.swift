@@ -21,6 +21,7 @@ class ChildViewController1: UIViewController, UINavigationControllerDelegate, UI
         
         self.navigationController!.delegate = self
         self.navigationController?.isNavigationBarHidden = true
+        self.transitioningDelegate = self
         myView = MyView() { [unowned self] in
             self.testMethod()
         }
@@ -61,11 +62,14 @@ class ChildViewController1: UIViewController, UINavigationControllerDelegate, UI
         return nil
     }
     
+    
     func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        print("present")
         return CustomPresentAnimation()
     }
     
     func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        print("dismiss")
         return CustomDismissAniamtion()
     }
     

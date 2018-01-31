@@ -36,6 +36,7 @@ class CustomPushTransitionAnimation: NSObject, UIViewControllerAnimatedTransitio
         }) { (completion) in
             fromView?.transform = CGAffineTransform.identity
             transitionContext.completeTransition(!transitionContext.transitionWasCancelled)
+            UIApplication.shared.endIgnoringInteractionEvents()
         }
     }
     

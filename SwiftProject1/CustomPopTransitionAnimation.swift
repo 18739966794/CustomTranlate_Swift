@@ -24,7 +24,7 @@ class CustomPopTransitionAnimation: NSObject, UIViewControllerAnimatedTransition
             fromView?.transform = CGAffineTransform(translationX: width, y: height)
         }) { (completion) in
             fromView?.transform = CGAffineTransform.identity
-            transitionContext.completeTransition(transitionContext.transitionWasCancelled)
+            transitionContext.completeTransition(!transitionContext.transitionWasCancelled)
         }
     }
     
